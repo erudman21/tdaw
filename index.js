@@ -47,7 +47,7 @@ module.exports = class TDAW {
 		}
 	}
 
-	getRecommendations({ q, type, info, limit, callback }) {
+	getRecommendations({ q, type, info, limit, callback, verbose }) {
 		if (!q) throw new Error('You must provide something to search!');
 
 		if (info) this.checkInfoVal(info);
@@ -60,7 +60,8 @@ module.exports = class TDAW {
 			type,
 			info,
 			limit,
-			callback
+			callback,
+			verbose
 		});
 	}
 };
