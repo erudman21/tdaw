@@ -3,7 +3,8 @@
 ### Setup
   $npm install --save tdaw
 
-### Initialize ```javascript
+### Initialize
+```javascript
 const TDAW = require('tdaw')
 
 const api = new TDAW({
@@ -11,7 +12,8 @@ const api = new TDAW({
 })
 ```
 
-### Example ```javascript
+### Example
+```javascript
 const res = await tdaw.getRecommendations({
   q: 'Good Will Hunting',
   type: 'movies', // Optional
