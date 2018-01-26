@@ -1,10 +1,9 @@
-An API wrapper for tastedive.com recommendations
+## An API wrapper for tastedive.com recommendations
 
-## Setup
+### Setup
   $npm install --save tdaw
 
-## Initialize
-```javascript
+### Initialize ```javascript
 const TDAW = require('tdaw')
 
 const api = new TDAW({
@@ -12,8 +11,7 @@ const api = new TDAW({
 })
 ```
 
-## Example
-```javasscript
+### Example ```javascript
 const res = await tdaw.getRecommendations({
   q: 'Good Will Hunting',
   type: 'movies', // Optional
