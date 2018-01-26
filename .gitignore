@@ -1,2 +1,4 @@
 node_modules
 apiKey.js
+.nyc_output
+coverage

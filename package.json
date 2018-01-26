@@ -4,7 +4,7 @@
 	"description": "Tastedive API wrapper",
 	"main": "index.js",
 	"scripts": {
-		"test": "mocha"
+		"test": "nyc --reporter=lcov --reporter=text mocha --timeout 15000 --reporter spec ./test/index.test.js"
 	},
 	"repository": {
 		"type": "git",
